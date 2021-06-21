@@ -1,0 +1,29 @@
+.contacts {
+    height: 100vh;
+    background-color: darkslateblue;
+}
+
+.contactsContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contactsForm {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+.contactsForm input {
+    margin-bottom: 10px;
+}
+
+.contactsBut {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: dimgray;
+    padding: 10px 15px;
+}
